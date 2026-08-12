@@ -125,6 +125,7 @@ export const BannerSlider = () => {
             src={activeBanner.src}
             alt={activeBanner.alt}
             className={styles.banner}
+            fetchPriority="high"
           />
         </picture>
 
