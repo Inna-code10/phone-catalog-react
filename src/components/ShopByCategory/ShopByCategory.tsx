@@ -35,7 +35,7 @@ const categories: CategoryItem[] = [
     id: 'tablets',
     title: 'Tablets',
     path: '/tablets',
-    image: 'img/category-tablets.png',
+    image: 'img/category-tablets.webp',
     imageBoxClassName: styles.tabletsImageBox,
     imageClassName: styles.tabletsImage,
   },
@@ -43,7 +43,7 @@ const categories: CategoryItem[] = [
     id: 'accessories',
     title: 'Accessories',
     path: '/accessories',
-    image: 'img/category-accessories.png',
+    image: 'img/category-accessories.webp',
     imageBoxClassName: styles.accessoriesImageBox,
     imageClassName: styles.accessoriesImage,
   },
@@ -86,6 +86,7 @@ export const ShopByCategory = ({ products }: Props) => {
                 alt=""
                 className={`${styles.image} ${category.imageClassName}`}
                 aria-hidden="true"
+                loading="lazy"
               />
             </div>
 

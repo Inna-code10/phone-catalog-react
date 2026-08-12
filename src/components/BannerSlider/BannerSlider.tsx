@@ -12,20 +12,20 @@ type Banner = {
 
 const banners: Banner[] = [
   {
-    src: `${baseUrl}img/banner-iphone-14.png`,
-    mobileSrc: `${baseUrl}img/banner-iphone-16-mobile.png`,
+    src: `${baseUrl}img/banner-iphone-14.webp`,
+    mobileSrc: `${baseUrl}img/banner-iphone-16-mobile.webp`,
     alt: 'iPhone banner',
   },
   {
-    src: `${baseUrl}img/banner-phones.png`,
+    src: `${baseUrl}img/banner-phones.webp`,
     alt: 'Phones banner',
   },
   {
-    src: `${baseUrl}img/banner-tablets.png`,
+    src: `${baseUrl}img/banner-tablets.webp`,
     alt: 'Tablets banner',
   },
   {
-    src: `${baseUrl}img/banner-accessories.png`,
+    src: `${baseUrl}img/banner-accessories.webp`,
     alt: 'Accessories banner',
   },
 ];

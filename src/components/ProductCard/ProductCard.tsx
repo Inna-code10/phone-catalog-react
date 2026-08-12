@@ -59,7 +59,12 @@ export const ProductCard = ({
         className={styles.imageLink}
         onClick={handleProductNavigation}
       >
-        <img src={imageSrc} alt={product.name} className={styles.image} />
+        <img
+          src={imageSrc}
+          alt={product.name}
+          className={styles.image}
+          loading="lazy"
+        />
       </Link>
 
       <Link

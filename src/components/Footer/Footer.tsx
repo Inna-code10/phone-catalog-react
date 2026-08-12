@@ -1,6 +1,6 @@
 import styles from './Footer.module.scss';
 
-const projectUrl = 'https://github.com/Inna-code10/react_phone-catalog';
+const projectUrl = 'https://github.com/Inna-code10/phone-catalog-react';
 
 const iconSrc = (iconName: string) => {
   return `${import.meta.env.BASE_URL}img/icons/${iconName}`;
