@@ -129,3 +129,6 @@ npm run deploy
 
 **Prettier:** For consistent code formatting.
 
+**Git:** For version control and tracking changes to the project.
+
+**GitHub:** For hosting the repository and deploying the application with GitHub Pages.
